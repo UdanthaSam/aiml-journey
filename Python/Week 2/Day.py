@@ -1,3 +1,5 @@
+import csv
+
 # ============================================================
 # PYTHON PRACTICE NOTES
 # Topics:
@@ -393,3 +395,61 @@ else:
 
 finally:
     print("Calculator closed.")
+
+
+
+
+
+avg = 0
+count = 0
+
+
+with open("marks.csv") as file:
+    reader = csv.reader(file)
+    next (reader)  # Skip the header row
+
+    for row in reader:
+        print(row[1])
+        avg = avg + int(row[1])
+        count = count + 1
+        print("Average", avg/count)
+
+pass
+
+
+with open("marks.csv") as file:
+    reader = csv.reader(file)
+    next(reader)
+
+    for row in reader:
+        name = row[0]
+        mark = row[2]
+        avg = avg + int(mark)
+        count = count + 1
+
+        print(f"{name} scored {mark}")
+    print("Average:", avg/count)
+pass
+
+
+x = "y"
+with open("marks.csv","w",newline="") as file:
+    writer = csv.writer(file)
+    while x == "y":
+        name = input("Enter name: ")
+        age = int(input("Enter age: "))
+        mark = int(input("Enter mark: "))
+        writer.writerow([name,age,mark])
+        x = input("Do you want to add another record? (y/n): ")
+pass
+
+with open("marks.csv") as file:
+    reader = csv.reader(file)
+
+    for row in reader:
+        name = row[0]
+        age = row[1]
+        mark = row[2]
+
+        print(f"{name} is {age} years old and scored {mark}")
+pass
