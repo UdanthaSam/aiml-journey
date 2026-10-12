@@ -1,0 +1,17 @@
+
+review_id,country,description,designation,points,price,province,region_1,region_2,variety,winery,title,taster_name,taster_twitter_handle
+0,US,A fruity red with cherry notes,Reserve,92,35,California,Napa Valley,Napa,Cabernet Sauvignon,Sample Cellars,Valley Red,Alice,@alicewine
+1,Italy,Earthy aromas and bright acidity,Classico,89,22,Tuscany,Chianti,,Sangiovese,Hill Winery,Chianti Hills,Ben,@benreviews
+2,Canada,Fresh citrus and apple,Icewine,84,48,Ontario,Niagara Peninsula,,Riesling,Lake Estate,Lake Riesling,Alice,@alicewine
+3,Australia,Tropical pineapple and smooth finish,Reserve,96,45,South Australia,Barossa Valley,,Shiraz,Southern Vine,Barossa Gold,Chloe,@chloetastes
+4,New Zealand,A fruity and tropical white,Coastal,97,30,Marlborough,Marlborough,,Sauvignon Blanc,Ocean Estate,Ocean Breeze,Ben,@benreviews
+5,Spain,Spicy blackberry notes,Especial,87,18,Northern Spain,Rioja,,Tempranillo,Oak House,Rioja Oak,Chloe,@chloetastes
+6,US,Vanilla and toasted oak,Classic,83,,Oregon,Willamette Valley,,Pinot Noir,Riverbend,Riverbend Pinot,Alice,@alicewine
+7,France,Floral aromas and elegant finish,Premier,94,65,Burgundy,Bourgogne,,Chardonnay,Maison Demo,Burgundy Blanc,Ben,@benreviews
+8,Italy,Tropical hints with fresh lemon,Fresh,86,16,Veneto,,,Pinot Grigio,Sunny Hills,Sunny Grigio,Chloe,@chloetastes
+9,US,A fruity finish with pepper,Reserve,95,50,California,Sonoma County,Sonoma,Zinfandel,Golden Vine,Sonoma Reserve,Alice,@alicewine
+10,Australia,Dark plum and baking spices,Classic,90,25,Victoria,Yarra Valley,,Shiraz,Red Ridge,Yarra Shiraz,Ben,@benreviews
+11,France,Crisp green apple and minerals,Brut,88,,Champagne,Champagne,,Sparkling Blend,Chateau Example,Example Brut,Chloe,@chloetastes
+12,Canada,Sweet tropical fruit notes,Late Harvest,91,38,British Columbia,Okanagan Valley,,Riesling,Northern Lights,Okanagan Late Harvest,Alice,@alicewine
+13,New Zealand,Fresh herbs and grass,Organic,93,28,Marlborough,Marlborough,,Sauvignon Blanc,Green Coast,Green Coast White,Ben,@benreviews
+14,Spain,Red berries and a fruity finish,Roble,82,12,Castilla y Leon,,,Tempranillo,Campo Vines,Campo Red,Chloe,@chloetastes
